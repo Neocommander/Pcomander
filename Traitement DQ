@@ -1,0 +1,27 @@
+
+#---------------- Définition des fonction ----------------
+
+def findfile(SN):
+    repository="C:/Users/Peter/Desktop/TESTS/"
+    pdfRepo="%s%s.pdf" % (repository,SN)
+    print(pdfRepo)
+    return pdfRepo
+
+#--------------- Etapes à suivre ---------------------------
+
+#Demander les valeurs de references OK
+#A partir des valeurs, rechercher les fichiers pdfs OK
+#Extraire les donnees des PDFs dans un fichier brut
+#Mise en forme d'un document et sortir en PDF ce document
+#Compiler le tout
+#Etape de verif et renommer
+
+#-------------- Demander les variables ------------------
+
+print("Rentrez le numéro de CC")
+CC=input()
+
+print("Rentrez le numéro de série")
+SN=input()
+
+#--------------- Exécution des fonctions -----------------
