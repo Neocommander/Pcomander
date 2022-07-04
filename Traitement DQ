@@ -25,3 +25,6 @@ print("Rentrez le numéro de série")
 SN=input()
 
 #--------------- Exécution des fonctions -----------------
+
+Attention le SN correspond à un N° de dossier et dans ce dossier se trouve le certificat
+cependant, il est possible d'y trouver autre chose
